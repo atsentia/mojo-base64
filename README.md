@@ -70,7 +70,7 @@ mojo run tests/test_base64.mojo
 
 ## License
 
-MIT
+Apache 2.0
 
 ## Part of mojo-contrib
 
