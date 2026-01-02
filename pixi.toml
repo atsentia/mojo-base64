@@ -1,0 +1,14 @@
+[project]
+name = "mojo-base64"
+version = "0.1.0"
+description = "Pure Mojo Base64 encoding/decoding (standard + URL-safe)"
+authors = ["IDEA2CODE"]
+channels = ["conda-forge", "modular"]
+platforms = ["osx-arm64", "linux-64"]
+
+[tasks]
+build = "mojo build src -o lib/mojo_base64.mojopkg"
+test = "mojo run tests/test_base64.mojo"
+
+[dependencies]
+max = ">=24.6,<25"
